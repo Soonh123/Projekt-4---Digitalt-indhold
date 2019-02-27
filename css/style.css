@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*----------------------------------------------HEADER-----------------------------------------*/
+
+.hero-image{
+    background-image: url(../image/ImageGen%201.jpg);
+    height: 980px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background: #333;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.startnavn{
+    float: left;
+    width: 100%;
+}
+
+.menu-font{
+    float: left;
+    display: block;
+    padding: 30px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu-font a{
+    padding: 30px 20px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.menu-font a:hover{
+    color: #47beae;
+}
+
+
+#join-login{ 
+    float: right;
+    padding: 30px 10px;
+}
+
+#join-login a{ 
+    padding: 30px 5px;
+}
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.hero-image-text{
+    color: #f1f1f1;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.hero-image-text h1{
+    font-size: 120px;
+    font-style: italic;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#bindestreg{
+    margin: 0 auto;
+    border-bottom: 5px solid #f1f1f1;
+    width: 80px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.hero-image-text h2{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #47beae;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero-image-text h3{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #47beae;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero-image-text h4{
+    margin: 0 auto;
+    padding: 5px 90px;
+    font-size: 22px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    border:  3px solid #f1f1f1;
+    width: 100px;
+    transition: background-color 0.5s ease;
+}
+
+.hero-image-text h4:hover{
+    background-color: #47beae;
+}
+/*----------------------------------------------MAIN-----------------------------------------*/
+
+.text{
+    padding: 40px 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.text h3{
+    font-size: 40px;
+    font-style: italic;
+    color: #B09759;
+}
+
+.text h1{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.text h2{
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.text h4{
+    padding: 20px 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.hero-image2{
+    background-image: url(../image/ImageGen.jpg);
+    height: 350px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image2-text{
+    color: #f1f1f1;
+    text-align: center;
+    padding: 120px 0;
+}
