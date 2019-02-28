@@ -139,15 +139,15 @@ header{
 }
 
 .text h1{
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 900;
     text-transform: uppercase;
     line-height: 30px;
 }
 
 .text h2{
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 100;
     line-height: 30px;
@@ -163,7 +163,7 @@ header{
 
 .hero-image2{
     background-image: url(../image/ImageGen.jpg);
-    height: 350px;
+    height: 550px;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,4 +291,73 @@ header{
 .pris2 h6:hover:hover{
     background-color: #e12178;
     color: #f1f1f1;
+}
+
+/*-------------------------------------BRUG AF KLIP-------------------------------------*/
+
+.klip{
+    margin: 10px 0px 0px 0px;
+    height: 300px;
+    background-color: #F6F6F6;
+    clear: both;
+}
+
+.klipstreg{
+    padding-top: 50px;
+    margin-left: 10px;
+    border-bottom: 8px solid #B09759;
+    width: 80px;
+}
+
+.klip h1{
+    padding: 30px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.klip h2{
+    padding: 10px;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.klip h3{
+    padding: 0px 10px 10px 10px;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.hero-image3{
+    background-image: url(../image/men-working-out.jpg);
+    height: 550px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------------Udvalgte centre-------------------------------------*/
+
+.udvalgte-centre{
+    padding: 40px 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.udvalgte-centre h3{
+    font-size: 40px;
+    font-style: italic;
+    color: #B09759;
+}
+
+.udvalgte-centre h2{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.centre{
+    margin: 10px;
+    float: left;
+    height: 600px;
+    width: calc(33% - 17px);
+    
 }
