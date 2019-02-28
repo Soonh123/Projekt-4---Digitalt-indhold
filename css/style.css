@@ -3,6 +3,9 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 /*----------------------------------------------HEADER-----------------------------------------*/
 
@@ -112,7 +115,16 @@ header{
 .hero-image-text h4:hover{
     background-color: #47beae;
 }
+
+.hero-image-text h4 a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
 /*----------------------------------------------MAIN-----------------------------------------*/
+
+#section2{
+    padding-top: 80px;
+}
 
 .text{
     padding: 40px 0;
@@ -166,10 +178,9 @@ header{
 .pris{
     margin: 10px;
     float: left;
-    height: 600px;
-    width: calc(50% - 30px);
-    background-color: yellow;
-    border: 4px dotted red;
+    height: 550px;
+    width: calc(50% - 80px);
+    border: 30px double #47beae;
 }
 
 .pris2{
@@ -179,4 +190,53 @@ header{
     width: calc(33% - 25px);
     background-color: yellow;
     border: 4px dotted red;
+}
+
+.prisstreg{
+    padding-top: 80px;
+    margin: 0 auto;
+    border-bottom: 8px solid #47beae;
+    width: 80px;
+}
+
+.pris h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    padding: 5px;
+}
+
+.pris h2{
+    font-size: 22px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.pris h3{
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.pris h4,h5{
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.pris h5{
+    text-decoration: line-through #47beae;
+    padding-bottom: 20px;
+}
+
+.pris h6{
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border:  3px solid #47beae;
+    width: 180px;
+    transition: background-color 0.5s ease;
+}
+
+.pris h6:hover:hover{
+    background-color: #47beae;
+    color: #f1f1f1;
 }
