@@ -85,7 +85,7 @@ header{
     padding-top: 20px;
     font-size: 22px;
     font-weight: 900;
-    color: #47beae;
+    color: #00873F;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -95,7 +95,7 @@ header{
     padding-bottom: 20px;
     font-size: 22px;
     font-weight: 900;
-    color: #47beae;
+    color: #00873F;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
 }
@@ -113,7 +113,7 @@ header{
 }
 
 .hero-image-text h4:hover{
-    background-color: #47beae;
+    background-color: #00873F;
 }
 
 .hero-image-text h4 a{
@@ -188,13 +188,13 @@ header{
     float: left;
     height: 550px;
     width: calc(50% - 80px);
-    border: 30px double #47beae;
+    border: 30px double #00873F;
 }
 
 .prisstreg{
     padding-top: 80px;
     margin: 0 auto;
-    border-bottom: 8px solid #47beae;
+    border-bottom: 8px solid #00873F;
     width: 80px;
 }
 
@@ -223,7 +223,7 @@ header{
 }
 
 .pris h5{
-    text-decoration: line-through #47beae;
+    text-decoration: line-through #00873F;
     padding-bottom: 20px;
 }
 
@@ -233,13 +233,13 @@ header{
     font-size: 18px;
     font-weight: 100;
     text-transform: uppercase;
-    border:  3px solid #47beae;
+    border:  3px solid #00873F;
     width: 180px;
     transition: background-color 0.5s ease;
 }
 
 .pris h6:hover:hover{
-    background-color: #47beae;
+    background-color: #00873F;
     color: #f1f1f1;
 }
 
