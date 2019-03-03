@@ -85,9 +85,9 @@ header{
     padding-top: 20px;
     font-size: 22px;
     font-weight: 900;
-    color: #00873F;
+    color: #B09759;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 2px 4px #000000;
 }
 
 .hero-image-text h3{
@@ -95,9 +95,9 @@ header{
     padding-bottom: 20px;
     font-size: 22px;
     font-weight: 900;
-    color: #00873F;
+    color: #B09759;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 2px 4px #000000;
 }
 
 .hero-image-text h4{
@@ -183,19 +183,12 @@ header{
     opacity: 0.7;
 }
 
-.hero-image2{
-    background-image: url(../image/ImageGen.jpg);
-    height: 550px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
+video{
+    background-color: #231F20;
+    height: 400px;
+    width: 100%;
 }
 
-.hero-image2-text{
-    color: #f1f1f1;
-    text-align: center;
-    padding: 120px 0;
-}
 /*-------------------------------------PRISER-------------------------------------*/
 .pris{
     text-align: center;
